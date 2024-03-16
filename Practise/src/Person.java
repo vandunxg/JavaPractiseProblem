@@ -5,7 +5,7 @@ import java.util.Scanner;
 import static java.lang.System.out;
 
 public class Person {
-    private String fullname;
+    private String fullname; // Full name
     private String birthday;
     private String address;
     private String sex;

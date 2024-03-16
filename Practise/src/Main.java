@@ -3,9 +3,6 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-import java.util.StringTokenizer;
 
 import static java.lang.System.out;
 
@@ -18,7 +15,7 @@ public class Main {
                 "Mã sinh viên", "Email", "Điểm tổng kết\n");
     }
 
-    public static void main(String[] args) {
+    public static <List, Scanner> void main(String[] args) {
         List<Person> listOfStudent = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
 
